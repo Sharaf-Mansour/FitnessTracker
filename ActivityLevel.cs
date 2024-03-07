@@ -1,9 +1,9 @@
 ﻿namespace FitnessTracker;
-public enum ActivityLevel : double
+public enum ActivityLevel : int
 {
-    Sedentary = 1.1,
-    LightlyActive = 1.2,
-    ModeratelyActive = 1.3,
-    VeryActive = 1.4,
-    ExtremelyActive = 1.5
+    Sedentary = 1,
+    LightlyActive = 2,
+    ModeratelyActive = 3,
+    VeryActive = 4,
+    ExtremelyActive = 5
 }
