@@ -1,4 +1,7 @@
 ﻿namespace FitnessTracker;
+/// <summary>
+/// Enum Values can be Sedentary, LightlyActive, ModeratelyActive, VeryActive or ExtremelyActive.
+/// </summary>  
 public enum ActivityLevel : int
 {
     Sedentary = 1,
