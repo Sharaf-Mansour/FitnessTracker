@@ -1,9 +1,9 @@
 ﻿namespace FitnessTracker;
     /// <summary>
-    /// A class Responsable for Calculating Daily Calories Intake 
+    /// A class Responsable for Calculating Daily Calories Intake <br/>
     /// Parameters are Optional
     /// </summary>  
-    /// <param name="gender">Can be <c> Male </c> or Female: default Male</param>
+    /// <param name="gender">Can be <c> Male </c> or <c> Female </c> : default Male</param>
     /// <param name="age">a double represents the factor of Calculating Calories based on Age: default 0</param>
     /// <param name="height">a double represents the factor of Calculating Calories based on Height: default 0</param>
     /// <param name="weight">a double represents the factor of Calculating Calories based on Weight: default 0</param>
