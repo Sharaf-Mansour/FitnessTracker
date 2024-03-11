@@ -1,16 +1,16 @@
 namespace FitnessTracker;
+/// <summary>
+/// Enum Values can be ZeroDay, OneDay, TwoDays, ThreeDays, FourDays, FiveDays, SixDays or SevenDays.
+/// </summary>  
+/// 
 public enum Workoutdays : int
 {
-    /// <summary>
-    /// Enum Values can be oneday, twodays, threedays, fourdays, fivedays, sixdays or sevendays.
-    /// </summary>  
-    /// 
-    zeroday = 0,
-    oneday = 1,
-    twodays = 2,
-    threedays = 3,
-    fourdays = 4,
-    fivedays = 5,
-    sixdays = 6,
-    sevendays = 7   
+    ZeroDay = 0,
+    OneDay = 1,
+    TwoDays = 2,
+    ThreeDays = 3,
+    FourDays = 4,
+    FiveDays = 5,
+    SixDays = 6,
+    SevenDays = 7   
 }
