@@ -1,5 +1,4 @@
 namespace FitnessTracker;
-
    /// <summary>
    /// A Class to assign the best workout program based on the number of <c>Workout Days</c>
    /// </summary>
