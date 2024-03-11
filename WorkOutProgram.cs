@@ -13,7 +13,7 @@ public class Workout( Workoutdays WorkoutDays = default)
     /// A Method that assign the best workout program.
     /// </summary>
     /// <returns>
-    /// <para>Assign the best workout program based on the number of (<c>Workout Days</c>)</para>
+    /// <para>Assign the best workout program based on the number of <c>Workout Days</c></para>
     /// </returns>
     public string AssignWorkoutProgram() => WorkoutDays switch
     {
