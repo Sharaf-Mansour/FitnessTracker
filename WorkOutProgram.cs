@@ -11,13 +11,12 @@ public class Workout( Workoutdays WorkoutDays = default)
     /// </summary>
     public Workoutdays WorkoutDays { get; set; } = WorkoutDays;
     /// <summary>
-    /// A Method that assign the best workout program
+    /// A Method that assign the best workout program.
     /// </summary>
     /// <returns>
     /// <para>Assign the best workout program based on the number of (<c>Workout Days</c>)</para>
     /// </returns>
-
-    public string CalculateWorkoutSchedule() => WorkoutDays switch
+    public string AssignWorkoutProgram() => WorkoutDays switch
     {
         Workoutdays.ZeroDay => "You need to workout",
         Workoutdays.OneDay => "Full body program",
