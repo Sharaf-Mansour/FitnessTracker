@@ -1,8 +1,17 @@
 namespace FitnessTracker;
+
+   /// <summary>
+   /// A Class to assign the best workout program based on the number of days intake
+   /// </summary>
+   /// <param name="WorkoutDays">Workout days could be from <c> 0 </c> up to <c> 7 </c> days </param>
 public class Workout(
     Workoutdays WorkoutDays = default
 )
-{   
+
+{
+    /// <summary>
+    /// could be from <c> 0 </c> up to <c> 7 </c> days
+    /// </summary>
     public Workoutdays WorkoutDays { get; set; }= WorkoutDays;
     public string CalculateWorkoutSchedule(Workoutdays WorkoutDays) => WorkoutDays switch
     {
