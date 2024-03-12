@@ -22,6 +22,6 @@ public class Workout( Workoutdays WorkoutDays = default)
         Workoutdays.TwoDays or Workoutdays.FourDays => "Upper and lower program or bro split program",
         Workoutdays.ThreeDays or Workoutdays.SixDays or Workoutdays.SevenDays  => "Push and pull and legs program or Arnold split program",
         Workoutdays.FiveDays => "Bro split program or Push, pull, legs program with upper and lower program",
-        _ => "Unknown workout schedule"       
+        _ => throw new ArgumentException("Unknown workout schedule")       
     };
 }
