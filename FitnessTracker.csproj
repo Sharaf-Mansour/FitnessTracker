@@ -1,9 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+	  <TargetFramework>netstandard2.0</TargetFramework>
+	  <LangVersion>Latest</LangVersion>
+	  <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Company>ElitesXTech</Company>
+    <Authors>Sharaf Mansour,Ahmed Walid,Fayez Kassem,Ahmed Khalil,Salma Alaa </Authors>
+    <Description>A class library designed to facilitate calorie tracking and calculation within software applications.</Description>
+    <RepositoryUrl>https://github.com/Sharaf-Mansour/FitnessTracker</RepositoryUrl>
+    <PackageTags>Calorie Tracking; Nutrition; Health; Diet; Fitness; Food Logging; Calorie Calculation;Nutritional Information; Goal Setting; Class Library  </PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <SupportedOSPlatformVersion>8.0</SupportedOSPlatformVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
-
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 </Project>
